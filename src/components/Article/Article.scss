@@ -1,0 +1,31 @@
+@import "../../variables/variables.scss";
+@import "../../mixins/mixins.scss";
+
+.astudio__blog-container_article {
+  width: 308px;
+  height: 379px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+  margin: 0 34px 30px 0;
+  align-items: center;
+
+  &-img {
+    padding-top: 66px;
+    text-align: center;
+  }
+  &-content h3 {
+    @include text-1();
+    text-align: center;
+    color: $blackColor;
+    margin-left: 34px;
+    margin-right: 38px;
+  }
+  &-content p {
+    @include text();
+    text-align: center;
+    color: $greyColor;
+    padding: 0 32px 0 31px;
+  }
+}

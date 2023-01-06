@@ -1,0 +1,77 @@
+@import "../../variables/variables.scss";
+
+.astudio__slider {
+  display: flex !important;
+  align-items: center;
+  margin-top: 113px;
+
+  &-2 {
+    width: 50%;
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      color: $blackColor;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: $greyColor-2;
+    }
+  }
+
+  &-roundedImgs {
+    position: relative;
+    width: 46em;
+    height: 24em;
+    padding: 2.8em;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+
+    a {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 4em;
+      height: 4em;
+      margin: -2em;
+    }
+  }
+}
+
+.deg1 {
+  transform: rotate(306deg) translate(7em) rotate(60deg);
+  top: 50px;
+  position: relative;
+}
+
+.deg2 {
+  transform: rotate(124deg) translate(8em) rotate(-125deg);
+}
+
+.deg3 {
+  transform: rotate(63deg) translate(10em) rotate(-69deg);
+}
+
+.deg4 {
+  transform: rotate(206deg) translate(-9.8em) rotate(-204deg);
+}
+
+.deg5 {
+  transform: rotate(-19deg) translate(-6em) rotate(19deg);
+}
+
+.deg6 {
+  transform: rotate(225deg) translate(6em) rotate(-225deg);
+}
+
+.deg7 {
+  transform: rotate(-13deg) translate(9em) rotate(14deg);
+}
+.deg8 {
+  transform: rotate(50deg) translate(-7em) rotate(-49deg);
+}

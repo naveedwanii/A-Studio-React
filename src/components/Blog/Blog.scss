@@ -1,0 +1,38 @@
+@import "../../variables/variables.scss";
+
+.astudio__blog {
+  display: flex;
+  margin-top: 124px;
+  //   background: url("../../assets/Rectangle 24.png") no-repeat;
+  &-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 183px;
+    &_groupA {
+      display: flex;
+      align-items: flex-end;
+    }
+    &_groupB {
+      display: flex;
+    }
+  }
+  &-heading {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 128px;
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 49px;
+      color: $blackColor;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      color: $greyColor-2;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import "../../variables/variables.scss";
+
+.astudio__dproduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 146px;
+
+  &-content {
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 49px;
+      color: $blackColor;
+      margin-right: 180px;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      color: $greyColor-2;
+      margin-right: 120px;
+    }
+  }
+}
+
+.section__padding {
+  margin-left: 120px;
+}

@@ -1,0 +1,61 @@
+@import "../../variables/variables.scss";
+@import "../../mixins/mixins.scss";
+
+.section__padding {
+  margin-left: 120px;
+}
+
+.astudio__footer-links {
+  display: flex;
+  justify-content: space-between;
+  &_logo {
+    width: 22%;
+    margin-top: 30px;
+    & p {
+      @include text();
+      font-size: 14px;
+      color: $greyColor-2;
+    }
+  }
+  &_div:last-child {
+    margin-right: 120px;
+  }
+
+  &_div {
+    h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: $blackColor;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      color: $blackColor;
+      margin: 0;
+    }
+  }
+}
+
+hr {
+  margin-top: 30px;
+  //   margin-bottom: 60px;
+}
+
+.astudio__footer-secondary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #a4a4a4;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.social__links {
+  margin-right: 16px;
+  margin-top: 40px;
+}

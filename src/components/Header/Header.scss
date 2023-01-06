@@ -1,0 +1,35 @@
+@import "../../variables/variables.scss";
+@import "../../mixins/mixins.scss";
+
+.astudio__header {
+  @include flex();
+}
+
+.astudio__text {
+  @include text-3();
+}
+
+.section__padding {
+  margin-left: 120px;
+}
+
+.astudio__header-content {
+  // background: url("../../assets/Dot Ornament.png");
+  &__img {
+    margin-top: 47px;
+    margin-left: 104px;
+  }
+  & p {
+    @include text();
+    line-height: 25px;
+    color: $greyColor-2;
+  }
+  & button {
+    font-family: Arial, Helvetica, sans-serif;
+    background: $blueColor;
+    padding: 20px 40px;
+    border-radius: 60px;
+    border: none;
+    color: $whiteColor;
+  }
+}
